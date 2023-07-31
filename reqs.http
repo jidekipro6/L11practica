@@ -1,0 +1,13 @@
+@server = https://texai-miniature-succotash-x9vwjq4r6cvqj4-8080.preview.app.github.dev
+@instumentos = {{server}}/api/instrumentos
+###
+GET {{instumentos}}
+###
+POST {{instumentos}}
+Content-Type: application/json
+
+{
+    "nombre": "Quena",
+    "categoria": "Viento",
+    "descripcion": "Tubo de madera con orificios"
+}
